@@ -163,6 +163,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
         systemOverlayStyle: const SystemUiOverlayStyle(
           statusBarColor: Color(0xFF0C9A8F),
@@ -235,7 +236,7 @@ class _HomeState extends State<Home> {
               if (image != null)
                 Stack(
                   children: [
-                    if (frameSelected != 0)
+                    if (frameSelected >1)
                       ClipPath(
                         clipper: frameSelected == 4
                             ? RectangleShapeClipper()
