@@ -5,7 +5,7 @@ import 'package:celebrare/Home.dart';
 
 void main() {
   runApp(MaterialApp(
-    debugShowCheckedModeBanner: true,
+    debugShowCheckedModeBanner: false,
     home: Splash(),
   ));
 }
